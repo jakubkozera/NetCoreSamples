@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataAccess/bin/Debug/netcoreapp2.2
+/DataAccess/obj

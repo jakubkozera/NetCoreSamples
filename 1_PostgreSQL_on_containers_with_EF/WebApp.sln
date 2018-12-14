@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{809009B2-7231-4979-8229-679B680F3D0A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2525035F-E8E4-446F-ABDE-29A8A4BAD05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{FFDBC779-FF92-4AFA-98A0-EA26378F46B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{809009B2-7231-4979-8229-679B680F3D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809009B2-7231-4979-8229-679B680F3D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809009B2-7231-4979-8229-679B680F3D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809009B2-7231-4979-8229-679B680F3D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2525035F-E8E4-446F-ABDE-29A8A4BAD05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2525035F-E8E4-446F-ABDE-29A8A4BAD05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2525035F-E8E4-446F-ABDE-29A8A4BAD05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2525035F-E8E4-446F-ABDE-29A8A4BAD05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDBC779-FF92-4AFA-98A0-EA26378F46B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDBC779-FF92-4AFA-98A0-EA26378F46B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDBC779-FF92-4AFA-98A0-EA26378F46B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDBC779-FF92-4AFA-98A0-EA26378F46B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E4334FA-B2C2-420A-8325-C2F50345EF32}
+	EndGlobalSection
+EndGlobal
